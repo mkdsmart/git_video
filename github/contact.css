@@ -1,0 +1,54 @@
+body{
+  background-color: rgb(120,120,120);
+  color: rgb(226 226 226);
+}
+h2{
+ font-size: 60px;
+ text-align: center;
+ text-shadow: 20px 20px 50px black;
+ text-decoration: underline;
+}
+
+    section{
+      display: inline-block;
+      display: flex;
+      border: 1px solid black;
+      margin-right: 100px;
+      margin-left: 100px;
+      padding: 10px;
+      box-shadow: 10px 10px 40px black;
+      justify-content: flex-start;
+    }
+    .nav1{
+     text-align: left;
+      display: inline-block;
+    }
+    .nav2{
+      text-align: right;
+      display: flex;
+      right: 900px; 
+    }
+    
+    label{
+      text-align: left;
+      left: 2px;
+    }
+    input{
+      background-color: rgb(59 59 59);
+      color: white;
+    }
+    textarea{
+      background-color: rgb(59 59 59);
+      color: white;
+    }
+    .txt{
+      text-align: left;
+    }
+    .img{
+      width: 70px;
+      height: 70px;
+      border-radius: 30px;
+    }
+    .subnav2{
+      font-size: 30px;
+    }
